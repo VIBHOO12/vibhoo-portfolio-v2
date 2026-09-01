@@ -16,7 +16,7 @@ import {
 } from "react-icons/fi";
 
 const EMAIL = "vibhoovishwakarma@gmail.com";
-const PHONE = "+91 9305646218";
+const PHONE = "+91 XXXXXXXXX";
 
 const GITHUB_URL = "https://github.com/VIBHOO12";
 const LINKEDIN_URL =
