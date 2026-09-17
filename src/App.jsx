@@ -12,8 +12,6 @@ import Certificates from './components/Certificates/Certificates';
 import DeveloperTerminal from './components/DeveloperTerminal/DeveloperTerminal';
 // import CurrentlyBuilding from './components/CurrentlyBuilding/CurrentlyBuilding';
 
-// import TechMarquee from './components/TechMarquee/TechMarquee';
-
 function App() {
   
 
@@ -21,7 +19,6 @@ function App() {
    <>
     <Navbar />
     <Hero />
-    {/* <TechMarquee /> */}
     <About />
     <Skills />
     <DeveloperTerminal />
