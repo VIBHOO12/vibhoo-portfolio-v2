@@ -78,7 +78,7 @@ const About = () => {
 
           <p className="mt-5 text-base sm:text-lg leading-7 sm:leading-8 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
             I'm Vibhoo Vishwakarma, a Frontend Developer specializing in
-React.js, JavaScript (ES6+), and Tailwind CSS. I build scalable,
+React.js, JavaScript, and Tailwind CSS. I build scalable,
 responsive web applications with a strong focus on clean UI,
 reusable components, performance, and user experience.
           </p>
