@@ -9,58 +9,36 @@ import {
 import AnimatedBackground from "../common/AnimatedBackground";
 
 
-// const valueProps = [
-//   {
-//     icon: <FiCode size={20} />,
-//     title: "Clean Code",
-//     desc: "Reusable, maintainable React components built for scalability.",
-//   },
-//   {
-//     icon: <FiLayers size={20} />,
-//     title: "Responsive UI",
-//     desc: "Modern interfaces that work smoothly across mobile, tablet, and desktop.",
-//   },
-//   {
-//     icon: <FiZap size={20} />,
-//     title: "Performance Focus",
-//     desc: "Optimizes UI performance and cross-device user experiences.",
-//   },
-//   {
-//     icon: <FiUsers size={20} />,
-//     title: "Team Collaboration",
-//     desc: "Experienced with Git, GitHub, code reviews, and collaborative development.",
-//   },
-// ];
-
 const valueProps = [
   {
     icon: <FiCode size={20} />,
-    title: "Clean & Maintainable Code",
-    desc: "Build modular React components that are reusable, readable, and easier to maintain.",
+    title: "Clean Code",
+    desc: "Reusable, maintainable React components built for scalability.",
   },
   {
     icon: <FiLayers size={20} />,
-    title: "Responsive Experiences",
-    desc: "Create polished, mobile-first interfaces that adapt seamlessly across devices.",
+    title: "Responsive UI",
+    desc: "Modern interfaces that work smoothly across mobile, tablet, and desktop.",
   },
   {
     icon: <FiZap size={20} />,
-    title: "Performance & Usability",
-    desc: "Focus on fast, accessible, and intuitive experiences that put users first.",
+    title: "Performance Focus",
+    desc: "Optimizes UI performance and cross-device user experiences.",
   },
   {
     icon: <FiUsers size={20} />,
-    title: "Collaboration & Growth",
-    desc: "Use Git and GitHub to manage code, collaborate effectively, and continuously improve.",
+    title: "Team Collaboration",
+    desc: "Experienced with Git, GitHub, code reviews, and collaborative development.",
   },
 ];
 
-// const stats = [
-//   { value: "9+", label: "Months Experience" },
-//   { value: "25+", label: "Reusable UI Components" },
-//   { value: "18+", label: "REST APIs Integrated" },
-//   { value: "2", label: "Internships" },
-// ];
+
+const stats = [
+  { value: "9+", label: "Months Experience" },
+  { value: "25+", label: "Reusable UI Components" },
+  { value: "18+", label: "REST APIs Integrated" },
+  { value: "2", label: "Internships" },
+];
 const stats = [
   { value: "25+", label: "Reusable UI Components" },
   { value: "18+", label: "REST APIs Integrated" },
@@ -106,7 +84,7 @@ const About = () => {
 
         {/* Main About Content */}
         <div className="max-w-4xl mx-auto text-center">
-          {/* <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
+          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
             Frontend Developer (React.js)
           </h3>
 
@@ -122,29 +100,9 @@ reusable components, performance, and user experience.
 UI components and integrated 18+ REST APIs across production-oriented
 projects. I also have a full-stack foundation in Java, Spring Boot,
 and MySQL, along with hands-on exposure to Generative AI.
-          </p> */}
+          </p>
 
-          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white">
-  Frontend Developer | React.js & Modern Web Technologies
-</h3>
 
-<p className="mt-5 text-base sm:text-lg leading-7 sm:leading-8 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-  I'm Vibhoo Vishwakarma, a Frontend Developer passionate about
-  transforming ideas into modern, responsive, and user-friendly
-  digital experiences. I specialize in React.js, JavaScript, and
-  Tailwind CSS, with a focus on intuitive UI design, reusable
-  components, clean code, and performance-driven development.
-</p>
-
-<p className="mt-4 text-base sm:text-lg leading-7 sm:leading-8 text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-  My work spans interactive interfaces, REST API integrations,
-  full-stack applications, and AI-powered project ideas. With
-  additional knowledge of Java, Spring Boot, and MySQL, I enjoy
-  solving practical problems and building products that balance
-  functionality with great user experience. I'm eager to contribute
-  my skills, collaborate with forward-thinking teams, and grow
-  through meaningful development opportunities.
-</p>
 
           {/* Stats */}
           <div className="mt-9 flex flex-wrap justify-center gap-8 sm:gap-12">
