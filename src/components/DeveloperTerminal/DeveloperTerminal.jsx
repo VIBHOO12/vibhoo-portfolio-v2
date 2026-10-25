@@ -13,13 +13,13 @@ const commands = [
 ];
 
 const initialOutput = [
-  {
+ {
     type: "system",
-    text: "Welcome to Vibhoo's Developer Terminal.",
+    text: "Welcome to Vibhoo's DevSpace — Where Ideas Turn Into Code.",
   },
   {
     type: "system",
-    text: 'Type "help" to see available commands.',
+    text: 'Type "help" to explore available commands.',
   },
 ];
 
